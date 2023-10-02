@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iomanip": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "array": "cpp",
+        "string_view": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "cSpell.words": [
+        "DIVS",
+        "QTRS"
+    ]
+}
