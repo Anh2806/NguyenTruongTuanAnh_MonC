@@ -1,0 +1,2 @@
+ lowestDigit = currentDigit;
+            }

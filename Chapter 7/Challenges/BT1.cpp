@@ -2,31 +2,31 @@
 using namespace std;
 
 int main() {
-    const int SIZE = 10; // Kích thước của mảng
-    int arr[SIZE]; // Khai báo mảng có 10 phần tử
-    int largest, smallest;
+    const int SIZE = 10; 
+    int arr[SIZE]; 
+    int lonnhat, nhonhat;
 
     // Nhập 10 giá trị vào mảng
-    cout << "Nhập 10 giá trị vào mảng:" << endl;
+    cout << "Nhap 10 gia tri vao mang:" << endl;
     for (int i = 0; i < SIZE; i++) {
-        cout << "Giá trị thứ " << i + 1 << ": ";
+        cout << "Gia tri thu " << i + 1 << ": ";
         cin >> arr[i];
     }
-
+    
     // Tìm giá trị lớn nhất và nhỏ nhất
-    largest = smallest = arr[0]; // Giả sử giá trị đầu tiên là lớn nhất và nhỏ nhất
+    lonnhat = nhonhat = arr[0]; // Giả sử giá trị đầu tiên là lớn nhất và nhỏ nhất
     for (int i = 1; i < SIZE; i++) {
-        if (arr[i] > largest) {
-            largest = arr[i];
+        if (arr[i] > lonnhat) {
+            lonnhat = arr[i];
         }
-        if (arr[i] < smallest) {
-            smallest = arr[i];
+        if (arr[i] < nhonhat) {
+            nhonhat = arr[i];
         }
     }
 
     // Hiển thị kết quả
-    cout << "Giá trị lớn nhất trong mảng: " << largest << endl;
-    cout << "Giá trị nhỏ nhất trong mảng: " << smallest << endl;
+    cout << "Gia tri lon nhat trong mang: " << lonnhat << endl;
+    cout << "Gia tri nho nhat trong mang: " << nhonhat << endl;
 
     return 0;
 }
