@@ -1,0 +1,30 @@
++-------------------+
+|    BenhNhan       |
++-------------------+
+| -msbn: int        |
++-------------------+
+| +addBenhNhan(int) |
+| +getMSBN(): int   |
++-------------------+
+         ^
+         |
+         |
++-------------------+        +-------------------+
+|    KhamBenh       |       |    NhapVien       |
++-------------------+         +-------------------+
+| -tienkham: double |     | -ngaynhapvien: int|
++-------------------+        | -songay: int      |
+| +KhamBenh(int,    |      | -trangthai: int   |
+|  double)                |     | -loaiC: double    |
+| +calTong(): double|     | -loaiB: double    |
+| +print()                 |     | -loaiA: double    |
++-------------------+       | -tienKhamMoiNgay: double|
+                                     | -loai: char       |
+                                      +-------------------+
+                                     | +NhapVien(int,    |
+                                     |   int, double,    |
+                                     |   char)           |
+                                     | +Xuat(int)        |
+                                     | +calTong(): double|
+                                      | +print(int)       |
+                                  +-------------------+
